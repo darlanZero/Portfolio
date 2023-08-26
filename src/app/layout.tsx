@@ -32,15 +32,15 @@ export default function RootLayout({ children }: { children: ReactNode }) {
           <Aside />
         </header>
 
-        <main className="max-h-screen">
-          <div className="relative flex flex-col items-center justify-between p-2 font-sans">
+        <main className="min-h-screen">
+          <div className="relative flex flex-grow flex-col items-center justify-between p-2 font-sans">
             {children}
           </div>
         </main>
 
-        <>
+        <div className="sticky bottom-0 w-full">
           <Footer />
-        </>
+        </div>
       </body>
     </html>
   )
