@@ -21,7 +21,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="pt-br">
       <body
-        className={`${roboto.variable} ${lobster.variable} h-screen  min-h-max bg-richblack-500 font-sans text-amber-50`}
+        className={`${roboto.variable} ${lobster.variable} h-screen  min-h-max overflow-x-hidden bg-richblack-500 font-sans text-amber-50`}
       >
         <header className="w-screen py-4">
           <div className="gap-6 rounded-sm bg-my-gradient text-center">
