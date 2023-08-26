@@ -44,6 +44,8 @@ export default function Home() {
           Also i know frameworks like React & Angular for JavaScript and
           TypeScript, Next for Frontend, Tailwind for CSS, SpringBoot for Java.
         </Card>
+
+        <Card>You want to contact me? send an e-mail to me!</Card>
       </div>
 
       <div></div>
