@@ -48,7 +48,7 @@ export default function Home() {
         <Card>You want to contact me? send an e-mail to me!</Card>
       </div>
 
-      <div>
+      <div className="text-center">
         <h1 className="font-alt text-5xl transition-colors hover:text-teal-900">
           About Me
         </h1>
