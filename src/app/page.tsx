@@ -13,12 +13,12 @@ export default function Home() {
       <div>
         <Card>
           Hi, actually, i am a web Developer looking to be a Fullstack Developer
-          soon. i have 19 years, and i curse Computer Science. I'm actually at
-          4º period on University.
+          soon. i have 19 years, and i curse Computer Science. Im actually at 4º
+          period on University
         </Card>
       </div>
 
-      <div className='text-center'>
+      <div className="text-center">
         <h1 className=" font-alt text-5xl transition-colors hover:text-green-950">
           Languages that i know
         </h1>
@@ -34,7 +34,7 @@ export default function Home() {
             cardText={['- PHP', '- Python', '- Java', '- TypeScript', '- C#']}
           />
 
-          <CollapseButton 
+          <CollapseButton
             buttonText="Databases"
             cardText={['- MySQL', '- Firebase', '- Prisma', '- H2']}
           />
