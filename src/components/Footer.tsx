@@ -1,7 +1,7 @@
 export function Footer() {
   return (
     <>
-      <footer className="max-h-full bg-neutral-200 text-center text-white dark:bg-slate-900">
+      <footer className="h-screen max-h-full bg-neutral-200 text-center text-white dark:bg-slate-900">
         <div className="container pt-9">
           <div className="mb-9 flex justify-center">
             <a

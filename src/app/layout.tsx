@@ -23,7 +23,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
       <body
         className={`${roboto.variable} ${lobster.variable} max-h-screen  min-h-max bg-richblack-500 font-sans text-amber-50`}
       >
-        <header className="py-4">
+        <header className="h-screen py-4">
           <div className="gap-6 rounded-sm bg-my-gradient text-center">
             <h1 className="font-alt text-5xl text-black first-letter:text-zinc-800">
               Welcome
