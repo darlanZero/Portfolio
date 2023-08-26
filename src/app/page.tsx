@@ -14,7 +14,7 @@ export default function Home() {
         <Card>
           Hi, actually, i am a web Developer looking to be a Fullstack Developer
           soon. i have 19 years, and i curse Computer Science. Im actually at 4º
-          period on University
+          period on University.
         </Card>
       </div>
 
@@ -48,7 +48,21 @@ export default function Home() {
         <Card>You want to contact me? send an e-mail to me!</Card>
       </div>
 
-      <div></div>
+      <div>
+        <h1 className="font-alt text-5xl transition-colors hover:text-teal-900">
+          About Me
+        </h1>
+
+        <Card>
+          Further than a developer, i am also someone that wants to know and
+          approach to more peoples. With that in mind, i created this section.
+          Hello, i my name is Darlan J. Oliveira, and i was born and actually
+          live on Brazil, the largest South America country. Like was mentioned
+          above, i have 19 years now. I like series, movies, animes and games.
+          My twitter is mostly for personal use, so you can contact me for reach
+          more about my person there!
+        </Card>
+      </div>
     </>
   )
 }
