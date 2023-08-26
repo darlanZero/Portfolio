@@ -32,8 +32,8 @@ export default function RootLayout({ children }: { children: ReactNode }) {
           <Aside />
         </header>
 
-        <main className="min-h-screen">
-          <div className="relative flex flex-col items-center p-2 font-sans">
+        <main className="max-h-screen">
+          <div className="relative flex flex-col items-center justify-between overflow-y-scroll p-2 font-sans">
             {children}
           </div>
         </main>
