@@ -53,7 +53,7 @@ export default function Home() {
           About Me
         </h1>
 
-        <Card>
+        <Card className="inline-flex content-center items-center gap-4">
           Further than a developer, i am also someone that wants to know and
           approach to more peoples. With that in mind, i created this section.
           Hello, i my name is Darlan J. Oliveira, and i was born and actually
