@@ -62,7 +62,7 @@ export function Footer() {
           </div>
         </div>
 
-        <div className="bg-neutral-300 p-4 text-center text-neutral-700 dark:bg-slate-950 border border-blue-950 dark:text-neutral-200">
+        <div className="border border-blue-950 bg-neutral-300 p-4 text-center text-neutral-700 dark:bg-slate-950 dark:text-neutral-200">
           <small>
             © 2023 Copyright:
             <a
